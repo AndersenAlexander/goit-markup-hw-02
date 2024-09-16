@@ -8,8 +8,14 @@ body {
 }
 
 h1, h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 800;
+    color: #2E2F42;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     color: #2E2F42;
 }
 
@@ -27,18 +33,18 @@ p {
 }
 
 button {
-    background-color: #2E2F42;
-    color: white;
+    background-color: #4D5AE5;
+    color: #F4F4FD;
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #03a9f4;
+    background-color: #404BBF;
 }
 
 header {
@@ -59,12 +65,12 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: white;
+    color: #E7E9FC;
     text-decoration: none;
 }
 
 header nav ul li a:hover {
-    color: #03a9f4;
+    color: #404BBF;
 }
 
 main {
@@ -97,7 +103,7 @@ main {
 footer {
     background-color: #2E2F42;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
 
